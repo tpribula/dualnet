@@ -79,13 +79,27 @@ function checkAnswer() {
 }
 
 function provideFeedback(feedback, color, result) {
+    // Update the feedback label with the current feedback
     document.getElementById('feedback-label').textContent = feedback;
     document.getElementById('feedback-label').style.color = color;
 
+    // Get the container for all answered text
     const askedText = document.getElementById('asked-text');
-    const resultClass = result === "Correct" ? "correct" : "incorrect";
-    askedText.value += `${currentWord} – ${correctAnswer} (${result})\n`;
-    askedText.classList.add(resultClass);
+    
+    // Create a new div element for the feedback entry
+    const feedbackEntry = document.createElement('div');
+
+    // Set the content and color based on the result
+    if (result === "Correct") {
+        feedbackEntry.innerHTML = `<span style="color: green;">${currentWord} – ${correctAnswer} (Correct)</span>`;
+    } else {
+        feedbackEntry.innerHTML = `<span style="color: red;">${currentWord} – ${correctAnswer} (Incorrect)</span>`;
+    }
+
+    // Append the new entry to the container
+    askedText.appendChild(feedbackEntry);
+    
+    // Scroll to the bottom of the container to show the latest entry
     askedText.scrollTop = askedText.scrollHeight;
 }
 
@@ -117,30 +131,79 @@ function startRankedQuiz() {
             </head>
             <body>
                 <div id="ranked-container">
+                    <button id="start-ranked-button">Start Ranked Quiz</button>
                     <div id="question-section">
                         <p id="question-label">Press 'Start Ranked Quiz' to begin.</p>
-                        <input type="text" id="answer-input" placeholder="Enter your answer" />
-                        <button id="submit-button">Submit</button>
+                        <input type="text" id="answer-input" placeholder="Enter your answer" disabled />
+                        <button id="submit-button" disabled>Submit</button>
                         <p id="feedback-label"></p>
-                    </div>
-                    <div id="stats">
-                        <p id="total-label">Total Questions: 0</p>
-                        <p id="correct-label">Correct Answers: 0</p>
-                        <p id="incorrect-label">Incorrect Answers: 0</p>
-                        <p id="percentage-label">Percentage: 0.0%</p>
                     </div>
                     <div id="asked-words">
                         <textarea id="asked-text" readonly></textarea>
                     </div>
                 </div>
                 <script>
-                    // Ranked quiz logic similar to the main quiz logic
-                    // You need to replicate and adjust the quiz logic here
+                    let wordPairs = ${JSON.stringify(wordPairs)};
+                    let slovakWords = Object.keys(wordPairs);
+                    let currentWord = null;
+                    let correctAnswer = null;
+
+                    document.getElementById('start-ranked-button').addEventListener('click', () => {
+                        document.getElementById('answer-input').disabled = false;
+                        document.getElementById('submit-button').disabled = false;
+                        shuffleArray(slovakWords);
+                        loadNextWord();
+                    });
+
+                    document.getElementById('submit-button').addEventListener('click', checkAnswer);
+
+                    function loadNextWord() {
+                        if (slovakWords.length > 0) {
+                            currentWord = slovakWords.pop();
+                            correctAnswer = wordPairs[currentWord];
+                            document.getElementById('question-label').textContent = \`Translate '\${currentWord}' to German:\`;
+                            document.getElementById('answer-input').value = '';
+                            document.getElementById('feedback-label').textContent = '';
+                        } else {
+                            endQuiz();
+                        }
+                    }
+
+                    function checkAnswer() {
+                        const userAnswer = document.getElementById('answer-input').value.trim();
+                        if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+                            provideFeedback("Correct!", "green");
+                        } else {
+                            provideFeedback(\`Wrong! The correct word is '\${correctAnswer}'.\`, "red");
+                        }
+                        setTimeout(loadNextWord, 2000);
+                    }
+
+                    function provideFeedback(feedback, color) {
+                        document.getElementById('feedback-label').textContent = feedback;
+                        document.getElementById('feedback-label').style.color = color;
+                    }
+
+                    function endQuiz() {
+                        document.getElementById('question-label').textContent = "Ranked Quiz finished!";
+                        document.getElementById('answer-input').disabled = true;
+                        document.getElementById('submit-button').disabled = true;
+                    }
+
+                    function shuffleArray(array) {
+                        for (let i = array.length - 1; i > 0; i--) {
+                            const j = Math.floor(Math.random() * (i + 1));
+                            [array[i], array[j]] = [array[j], array[i]];
+                        }
+                    }
                 </script>
             </body>
         </html>
     `);
 }
+
+
+
 
 function updateCounters() {
     document.getElementById('total-label').textContent = `Total Questions: ${totalQuestions}`;
