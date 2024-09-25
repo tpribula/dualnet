@@ -1,0 +1,195 @@
+ablaufen – uplynúť
+ablehnen – odmietnuť
+abnehmen – klesať
+abrechnen – odpočítať
+die Absage – odmietnutie
+abschalten – vypnúť
+die Abteilung – oddelenie
+abziehen – odpočítať
+der Abzug – zrážka
+anbieten – ponúkať
+der Anbieter – predajca
+anfordern – požiadať
+die Anfrage – otázka
+angeben – uviesť
+das Angebot – ponuka
+anhängen – zavesiť
+der Anhang – príloha
+der Ansprechpartner – kontaktná osoba
+anstellen – zamestnať
+der Angestellter – úradník
+die Anweisung – pokyn
+die Anzahl – počet
+der Arbeitgeber – zamestnávateľ
+der Arbeitnehmer – zamestnanec
+der Arbeitsplatz – pracovisko
+der Artikel – výrobok
+der Auftrag – objednávka
+ausbilden – vzdelávať
+die Ausbildung – vzdelanie
+der Ausbildungsplatz – miesto na získanie vzdelania
+der Auszubildender – učeň
+der Azubi – skratka pre učeň
+beachten – rešpektovať
+bearbeiten – spracovať
+beauftragen – poveriť
+befristet – dočasný
+der Bericht – správa
+beschädigen – poškodiť
+die Beschwerde – sťažnosť
+beschweren, sich – sťažovať sa
+die Besichtigung – prehliadka
+die Besprechung – porada
+bestätigen – potvrdiť
+die Bestätigung – potvrdenie
+bestellen – objednať
+die Bestellung – objednávka
+der Betreff – vec
+die Betreffzeile – riadok v liste
+der Betrieb – podnik
+die Betriebsanleitung – návod na používanie
+die Bezeichnung – označenie
+die Breite – šírka
+brutto – hrubý
+die Daten – dáta
+der Dienst – služba
+drucken – tlačiť
+der Drucker – tlačiareň
+der Durchschnitt – priemer
+die Durchwahl – predvoľba
+der Eingang – vchod
+eingehen – dôjsť
+einsetzen – nasadiť
+einstellen – zamestnať
+der Empfang – príjem
+entwickeln (sich) – rozvíjať
+erhalten – dostať
+das Ersatzteil – náhradný diel
+der Fachmann – odborník
+fällig – splatný
+feststellen – zistiť
+die Firma – firma
+flexibel – pružný
+fordern – žiadať
+die Frist – lehota
+fristlos – okamžitý
+die Funktion – funkcia
+die Garantie – záruka
+garantieren – garantovať
+der Gast – hosť
+die Gebrauchsanweisung – návod na použitie
+die Gebühr – poplatok
+geeignet – vhodný
+das Gehalt – výplata
+das Gelände – areál
+gelten – platiť
+der Gesamtpreis – celková cena
+der Geschäftsführer – konateľ spoločnosti
+der Geselle – vyučený remeselník
+gleichwertig – rovnocenný
+gleitend – pružný
+die Gleitzeit – pružná pracovná doba
+gültig – platný
+das Handwerk – remeslo
+der Handwerker – remeselník
+der Hersteller – výrobca
+der Hinweis – upozornenie
+hinweisen – upozorniť
+hochwertig – kvalitný
+die Höhe – výška
+inklusive – vrátane
+kaufmännisch – obchodný
+der Kittel – pracovný plášť
+kleben – lepiť
+der Kontakt – kontakt
+das Konto – konto
+die Kosten – náklady
+die Kündigung – výpoveď
+der Kundendienst – zákaznícka služba
+der Kunststoff – plast
+das Lager – sklad
+die Länge – dĺžka
+die Leistung – výkon
+lieferbar – ihneď k dodaniu
+liefern – dodať
+der Liefertermin – termín dodania
+die Lieferung – dodávka
+der LKW – nákladné auto
+der Lohn – výplata
+der Mangel – nedostatok
+der Manager – manažér
+das Material – materiál
+der Meister – majster
+die Messe – veľtrh
+das Metall – kov
+der Mitarbeiter – spolupracovník
+das Muster – vzor
+nachweisen – preukázať
+netto – čistý
+das Personal – personál
+die Pflicht – povinnosť
+das Plastik – plast
+die Position – pozícia
+der Praktikant – praktikant
+die Probezeit – skúšobná doba
+die Produktion – výroba
+produzieren – vyrábať
+professionell – profesionálny
+das Prozent – percento
+die Qualifikation – kvalifikácia
+die Qualität – kvalita
+die Quittung – potvrdenka
+reduzieren – redukovať
+die Reklamation – reklamácia
+reklamieren – reklamovať
+die Reparatur – oprava
+der Schaden – škoda
+die Schicht – pracovná zmena
+der Schichtdienst – práca na zmeny
+schulen – školiť
+die Schulung – školenie
+selbstständig – samostatný
+senken – znížiť
+der Service – servis
+sinken – klesať
+die Sicherheit – bezpečnosť
+sortieren – triediť
+die Stärke – sila
+steigen – stúpať
+die Stelle – miesto
+die Stellenanzeige – inzercia
+die Steuer – daň
+das Stück – kus
+die Tabelle – tabuľka
+tauschen – meniť
+die Tiefe – hĺbka
+tippen – ťukať
+der Transport – transport
+transportieren – transportovať
+die Überstunde – nadčas
+umtauschen – vymeniť
+unbefristet – netermínovaný
+das Unternehmen – podnik
+der Unternehmer – podnikateľ
+die Unternehmerin – podnikateľka
+die Urlaubsregelung – pravidlá dovolenky
+verantwortlich – zodpovedný
+verarbeiten – spracovať
+verbinden – spojiť
+verbrauchen – spotrebovať
+vereinbaren – dohodnúť
+das Verhalten – správanie
+der Verkauf – predaj
+vertreten – zastúpiť
+verwenden – použiť
+die Vorschrift – predpis
+die Ware – tovar
+das Warenangebot – ponuka tovaru
+das Wechselgeld – drobné peniaze
+wechseln – meniť
+der Werktag – pracovný deň
+die Zahlung – platba
+die Zahlungserinnerung – platobná upomienka
+zunehmen – pribúdať
+die Zusage – prísľub
+zuständig – zodpovedný
