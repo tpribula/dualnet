@@ -1,21 +1,74 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
+#quiz-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
 }
 
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
+#quiz-controls {
+    margin-bottom: 20px;
 }
 
-main > h1 {
-  text-align: center;
-  font-size: 3.5em;
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:active {
+    background-color: #0056b3;
+}
+
+#question-section {
+    margin-bottom: 20px;
+}
+
+#answer-input {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#asked-words {
+    margin-top: 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+
+#asked-text {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    overflow-y: auto;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+    text-decoration: underline;
 }
