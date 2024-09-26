@@ -12,7 +12,7 @@ body {
 #quiz-container {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #28282B;
     border: 2px solid #007bff;
     border-radius: 10px;
     padding: 20px;
@@ -51,7 +51,7 @@ button:active {
 
 #asked-words {
     margin-top: 20px;
-    border: 2px solid #007bff;
+    border: 2px solid #ffffff;
     border-radius: 5px;
 }
 
