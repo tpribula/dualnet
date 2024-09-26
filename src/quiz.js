@@ -15,6 +15,11 @@ document.addEventListener('DOMContentLoaded', () => {
     loadWordPairs(filePath).then(() => {
         document.getElementById('start-button').addEventListener('click', startQuiz);
         document.getElementById('submit-button').addEventListener('click', checkAnswer);
+        document.getElementById('answer-input').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                checkAnswer();
+            }
+        });
         document.getElementById('switch-button').addEventListener('click', switchDirection);
         document.getElementById('ranked-button').addEventListener('click', startRankedQuiz);
     });
@@ -79,27 +84,19 @@ function checkAnswer() {
 }
 
 function provideFeedback(feedback, color, result) {
-    // Update the feedback label with the current feedback
     document.getElementById('feedback-label').textContent = feedback;
     document.getElementById('feedback-label').style.color = color;
 
-    // Get the container for all answered text
     const askedText = document.getElementById('asked-text');
-    
-    // Create a new div element for the feedback entry
     const feedbackEntry = document.createElement('div');
 
-    // Set the content and color based on the result
     if (result === "Correct") {
         feedbackEntry.innerHTML = `<span style="color: green;">${currentWord} – ${correctAnswer} (Correct)</span>`;
     } else {
         feedbackEntry.innerHTML = `<span style="color: red;">${currentWord} – ${correctAnswer} (Incorrect)</span>`;
     }
 
-    // Append the new entry to the container
     askedText.appendChild(feedbackEntry);
-    
-    // Scroll to the bottom of the container to show the latest entry
     askedText.scrollTop = askedText.scrollHeight;
 }
 
@@ -156,6 +153,11 @@ function startRankedQuiz() {
                     });
 
                     document.getElementById('submit-button').addEventListener('click', checkAnswer);
+                    document.getElementById('answer-input').addEventListener('keydown', (e) => {
+                        if (e.key === 'Enter') {
+                            checkAnswer();
+                        }
+                    });
 
                     function loadNextWord() {
                         if (slovakWords.length > 0) {
@@ -202,9 +204,6 @@ function startRankedQuiz() {
     `);
 }
 
-
-
-
 function updateCounters() {
     document.getElementById('total-label').textContent = `Total Questions: ${totalQuestions}`;
     document.getElementById('correct-label').textContent = `Correct Answers: ${correctAnswers}`;
@@ -218,13 +217,3 @@ function shuffleArray(array) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
-}
-
-function resetQuiz() {
-    totalQuestions = 0;
-    correctAnswers = 0;
-    incorrectAnswers = 0;
-    updateCounters();
-    document.getElementById('asked-text').value = '';
-    loadNextWord();
-}
