@@ -15,6 +15,11 @@ document.addEventListener('DOMContentLoaded', () => {
     loadWordPairs(filePath).then(() => {
         document.getElementById('start-button').addEventListener('click', startQuiz);
         document.getElementById('submit-button').addEventListener('click', checkAnswer);
+        document.getElementById('answer-input').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                checkAnswer();
+            }
+        });
         document.getElementById('switch-button').addEventListener('click', switchDirection);
         document.getElementById('ranked-button').addEventListener('click', startRankedQuiz);
     });
@@ -156,6 +161,11 @@ function startRankedQuiz() {
                     });
 
                     document.getElementById('submit-button').addEventListener('click', checkAnswer);
+                    document.getElementById('answer-input').addEventListener('keydown', (e) => {
+                        if (e.key === 'Enter') {
+                            checkAnswer();
+                        }
+                    });
 
                     function loadNextWord() {
                         if (slovakWords.length > 0) {
