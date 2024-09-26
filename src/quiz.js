@@ -80,7 +80,7 @@ function checkAnswer() {
         incorrectAnswers++;
     }
     updateCounters();
-    setTimeout(loadNextWord, 2000);
+    setTimeout(loadNextWord, 100);
 }
 
 function provideFeedback(feedback, color, result) {
