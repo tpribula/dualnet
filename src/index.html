@@ -8,15 +8,18 @@
 </head>
 <body>
     <div id="quiz-container">
+        <div id="file-selection">
+            <button id="file1-button">DSD</button>
+            <button id="file2-button">Test</button>
+        </div>
         <div id="quiz-controls">
-            <button id="start-button">Start Quiz</button>
-            <button id="switch-button">Switch to German to Slovak</button>
-            <button id="ranked-button">Ranked</button>
+            <button id="start-button" disabled>Start Quiz</button>
+            <button id="mode-switch-button" disabled>Switch to German to Slovak</button>
         </div>
         <div id="question-section">
-            <p id="question-label">Press 'Start Quiz' to begin.</p>
-            <input type="text" id="answer-input" placeholder="Enter your answer" />
-            <button id="submit-button">Submit</button>
+            <p id="question-label">Select an option DSD or Test.</p>
+            <input type="text" id="answer-input" placeholder="Enter your answer" disabled />
+            <button id="submit-button" disabled>Submit</button>
             <p id="feedback-label"></p>
         </div>
         <div id="stats">
