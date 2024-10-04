@@ -20,6 +20,10 @@ body {
     max-width: 800px;
 }
 
+#file-selection {
+    margin-bottom: 20px;
+}
+
 #quiz-controls {
     margin-bottom: 20px;
 }
