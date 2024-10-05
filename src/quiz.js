@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     document.getElementById('mode-switch-button').addEventListener('click', switchMode);
+    document.getElementById('background-toggle-button').addEventListener('click', toggleBackgroundColor);
 });
 
 async function loadWordPairs(filePath) {
@@ -97,7 +98,10 @@ function checkAnswer() {
 function provideFeedback(feedback, color) {
     document.getElementById('feedback-label').textContent = feedback;
     document.getElementById('feedback-label').style.color = color;
-    document.getElementById('asked-text').innerHTML += `<div style="color: ${color};">${currentWord} – ${correctAnswer} (${feedback})</div>`;
+    
+    const askedTextDiv = document.getElementById('asked-text');
+    askedTextDiv.innerHTML += `<div style="color: ${color};">${currentWord} – ${correctAnswer} (${feedback})</div>`;
+    askedTextDiv.scrollTop = askedTextDiv.scrollHeight;
 }
 
 function endQuiz() {
@@ -125,5 +129,37 @@ function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+    }
+}
+
+let isWhiteBackground = false;
+function toggleBackgroundColor() {
+    isWhiteBackground = !isWhiteBackground;
+
+    // Change the background color of the body, asked-words, and quiz container
+    if (isWhiteBackground) {
+        document.body.style.backgroundColor = "black";
+        document.getElementById('quiz-container').style.backgroundColor = "#28282B"; // Revert the container's background color
+        document.getElementById('asked-text').style.backgroundColor = "#28282B"; // Change the asked words background color
+        document.getElementById('asked-text').style.color = "black"; // Change the asked words text color
+        document.getElementById('feedback-label').style.color = "white"; // Feedback text color
+        document.getElementById('question-label').style.color = "white"; // Question text color
+        document.getElementById('total-label').style.color = "white"; // Total questions text color
+        document.getElementById('correct-label').style.color = "white"; // Correct answers text color
+        document.getElementById('incorrect-label').style.color = "white"; // Incorrect answers text color
+        document.getElementById('percentage-label').style.color = "white"; // Percentage text color
+
+    } else {
+        document.body.style.backgroundColor = "#28282B";
+        document.getElementById('quiz-container').style.backgroundColor = "#ffffff"; // Change the container's background color
+        document.getElementById('asked-text').style.backgroundColor = "white"; // Change the asked words background color
+        document.getElementById('asked-text').style.color = "black"; // Change the asked words text color
+        document.getElementById('feedback-label').style.color = "black"; // Feedback text color
+        document.getElementById('question-label').style.color = "black"; // Question text color
+        document.getElementById('total-label').style.color = "black"; // Total questions text color
+        document.getElementById('correct-label').style.color = "black"; // Correct answers text color
+        document.getElementById('incorrect-label').style.color = "black"; // Incorrect answers text color
+        document.getElementById('percentage-label').style.color = "black"; // Percentage text color
+
     }
 }
