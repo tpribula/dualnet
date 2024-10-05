@@ -85,20 +85,17 @@ function checkAnswer() {
     const userAnswer = document.getElementById('answer-input').value.trim();
     totalQuestions++;
     if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
-        provideFeedback("Correct!", "green");
+        provideFeedback("Correct!", "#009200");
         correctAnswers++;
     } else {
-        provideFeedback(`Wrong!`, "red");
+        provideFeedback(`Wrong!`, "#960018");
         incorrectAnswers++;
     }
     updateCounters();
     setTimeout(loadNextWord, 1000);
 }
 
-function provideFeedback(feedback, color) {
-    document.getElementById('feedback-label').textContent = feedback;
-    document.getElementById('feedback-label').style.color = color;
-    
+function provideFeedback(feedback, color) {    
     const askedTextDiv = document.getElementById('asked-text');
     askedTextDiv.innerHTML += `<div style="color: ${color};">${currentWord} – ${correctAnswer} (${feedback})</div>`;
     askedTextDiv.scrollTop = askedTextDiv.scrollHeight;
@@ -148,6 +145,7 @@ function toggleBackgroundColor() {
         document.getElementById('correct-label').style.color = "white"; // Correct answers text color
         document.getElementById('incorrect-label').style.color = "white"; // Incorrect answers text color
         document.getElementById('percentage-label').style.color = "white"; // Percentage text color
+        document.getElementById('background-toggle-button').textContent = "Light Mode";
 
     } else {
         document.body.style.backgroundColor = "#28282B";
@@ -160,6 +158,7 @@ function toggleBackgroundColor() {
         document.getElementById('correct-label').style.color = "black"; // Correct answers text color
         document.getElementById('incorrect-label').style.color = "black"; // Incorrect answers text color
         document.getElementById('percentage-label').style.color = "black"; // Percentage text color
+        document.getElementById('background-toggle-button').textContent = "Dark Mode";
 
     }
 }
