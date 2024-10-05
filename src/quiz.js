@@ -1,6 +1,7 @@
 const filePaths = {
-    file1: 'file.txt', // Path to your first file
-    file2: 'file2.txt', // Path to your second file
+    file1: 'file.txt', 
+    file2: 'file2.txt',
+    file3: 'file3.txt'  
 };
 
 let wordPairs = {};
@@ -16,6 +17,7 @@ let incorrectAnswers = 0;
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('file1-button').addEventListener('click', () => loadWordPairs(filePaths.file1));
     document.getElementById('file2-button').addEventListener('click', () => loadWordPairs(filePaths.file2));
+    document.getElementById('file3-button').addEventListener('click', () => loadWordPairs(filePaths.file3)); // New button
 
     document.getElementById('start-button').addEventListener('click', startQuiz);
     document.getElementById('submit-button').addEventListener('click', checkAnswer);
@@ -92,7 +94,7 @@ function checkAnswer() {
         incorrectAnswers++;
     }
     updateCounters();
-    setTimeout(loadNextWord, 200);
+    setTimeout(loadNextWord, 1000);
 }
 
 function provideFeedback(feedback, color) {    
