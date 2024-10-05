@@ -94,7 +94,7 @@ function checkAnswer() {
         incorrectAnswers++;
     }
     updateCounters();
-    setTimeout(loadNextWord, 1000);
+    setTimeout(loadNextWord, 100);
 }
 
 function provideFeedback(feedback, color) {    
