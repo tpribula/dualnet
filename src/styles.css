@@ -1,6 +1,7 @@
 body {
     font-family: 'Helvetica', sans-serif;
-    background-color: #28282B;
+    background-color: #28282B; /* Initial background color */
+    color: black; /* Initial text color */
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,18 +13,15 @@ body {
 #quiz-container {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
-    border: 2px solid #007bff;
+    background-color: white; /* Dark background for the container */
     border-radius: 10px;
     padding: 20px;
     width: 80%;
     max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-#file-selection {
-    margin-bottom: 20px;
-}
-
+#file-selection,
 #quiz-controls {
     margin-bottom: 20px;
 }
@@ -31,7 +29,7 @@ body {
 button {
     background-color: #007bff;
     color: white;
-    border: none;
+    border: 2px solid black;
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
@@ -49,22 +47,23 @@ button:active {
 #answer-input {
     font-size: 16px;
     padding: 10px;
-    width: 100%;
+    width: 95%;
     margin: 5px 0;
-    padding: 5px;
+    background-color: #FAF9F6;
 }
 
 #asked-words {
     margin-top: 20px;
-    border: 2px solid #007bff;
-    border-radius: 5px;
+
+    background-color: white; /* Initial background color for asked words */
 }
 
 #asked-text {
-    width: 100%;
+    border: 3px solid #007bff; /* Adjust the border color and size */
+    overflow: hidden; /* This might prevent clipping issues */
+    width: 97%;
     height: 200px;
     padding: 10px;
-    border: none;
     background-color: #ffffff;
     overflow-y: auto;
 }
