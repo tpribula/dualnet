@@ -92,7 +92,7 @@ function checkAnswer() {
         incorrectAnswers++;
     }
     updateCounters();
-    setTimeout(loadNextWord, 1000);
+    setTimeout(loadNextWord, 200);
 }
 
 function provideFeedback(feedback, color) {    
