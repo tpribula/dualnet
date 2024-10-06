@@ -73,7 +73,7 @@ button:active {
 }
 
 .incorrect {
-    color: #FF0000;
+    color: #C41E3A;
 }
 @media (max-width: 600px) {
     body{
