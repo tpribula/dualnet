@@ -90,7 +90,7 @@ function checkAnswer() {
         provideFeedback("Correct!", "#009200");
         correctAnswers++;
     } else {
-        provideFeedback(`Wrong!`, "#960018");
+        provideFeedback(`Wrong!`, "#FF0000");
         incorrectAnswers++;
     }
     updateCounters();
