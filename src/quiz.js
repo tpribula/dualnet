@@ -1,7 +1,8 @@
 const filePaths = {
     file1: 'file.txt', 
     file2: 'file2.txt',
-    file3: 'file3.txt'  
+    file3: 'file3.txt',
+    file4: 'file4.txt'  
 };
 
 let wordPairs = {};
@@ -17,7 +18,8 @@ let incorrectAnswers = 0;
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('file1-button').addEventListener('click', () => loadWordPairs(filePaths.file1));
     document.getElementById('file2-button').addEventListener('click', () => loadWordPairs(filePaths.file2));
-    document.getElementById('file3-button').addEventListener('click', () => loadWordPairs(filePaths.file3)); // New button
+    document.getElementById('file3-button').addEventListener('click', () => loadWordPairs(filePaths.file3));
+    document.getElementById('file4-button').addEventListener('click', () => loadWordPairs(filePaths.file4));
 
     document.getElementById('start-button').addEventListener('click', startQuiz);
     document.getElementById('submit-button').addEventListener('click', checkAnswer);
