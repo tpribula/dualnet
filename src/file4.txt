@@ -1,62 +1,82 @@
-der Appetit – chuť 
-aufhören mit etwas – prestať s niečím
-der Auftrag – objednávka
-das Auge – oko
-der Bauch – brucho
-das Befinden – zdravotný stav
-das Bein – noha
-gut, besser, am besten – dobrý, lepší, najlepší
-die Beschwerden – ťažkosti
-das Bett – posteľ
-die Bettruhe – pokoj na lôžku
-brechen – zlomiť
-deshalb – preto
-einhalten – dodržať
-den Termin einhalten – dodržať termín
-die Empfehlung – odporúčanie
-die Erkältung – prechladnutie
-erzählen – rozprávať (súvislý príbeh)
-essen – jesť
-das Fahrrad – bicykel
-Was fehlt dir? – Čo ti je? 
-das Fieber – horúčka
-der Fuß – chodidlo
-gestern – včera
-gesund – zdravý
-gleich, sofort – ihneď
-der Hals – krk, hrdlo
-die Hand – ruka
-hohes Fieber – vysoká horúčka  
-der Honig – med
-der Husten – kašeľ
-der Kopf – hlava
-das Krankenhaus – nemocnica
-die Krankheit – choroba
-krankschreiben – vypísať niekoho
-Was ist los? – Čo sa deje?
-Was ist mit dir los? – Čo je s tebou?
-mehrere – viacerí
-messen – merať
-die Mitteilung – oznámenie, správa
-müde sein – byť unavený
-nehmen – vziať
-nichts – nič
-ein paar – niekoľko
-der Ratschlag – rada
-die rechte Hand – pravá ruka
-der Rücksitz – zadné sedadlo v aute
-die Ruhe – pokoj
-schlafen – spať
-Mir ist schlecht. – Je mi zle.
-der Schmerz – bolesť
-das Schreiben – list, písanie
-der Tee – čaj
-die Temperatur – teplota
-Mir ist übel. – Je mi zle.
-der Unfall – nehoda
-verbinden – zaviazať
-die Verletzung – poranenie
-vereinbaren – dohodnúť
-verletzen –  poraniť
-verordnen – naordinovať, predpísať
-verschreiben – predpísať (liek)
+der Aktenkoffer – kufrík na spisy
+der Arzt – lekár
+die Ärztin – lekárka
+die Allgemeinmedizin – všeobecná medicína
+die Art – druh
+die Bandscheibe – medzistavcová platnička
+behandeln – ošetrovať
+der Blinde – slepý
+damit – aby
+dran – na tom
+drankommen – prísť na rad
+drum – preto
+der Engel – anjel
+entladen Batterie, Lastwagen – vybiť batériu, zložiť (náklad) z nákladného auta 
+entschuldigen – ospravedlniť
+der Facharzt – odborný lekár
+die Fachärztin – odborná lekárka
+fliegen – letieť
+glauben – veriť
+die Grippe – chrípka
+ heben den Arm – dvíhať ruku 
+die Heilkunde – medicína 
+heiß – horúci
+herunter/gehen – klesať, ísť dolu
+hoffentlich – snáď, azda, vari, dúfajme
+holen etwas – ísť po niečo
+innere Krankheiten – vnútorné choroby 
+jedenfalls – v každom prípade
+kess – vyzývavý, drzý
+kommen zu Besuch – prísť na návštevu
+ins Gespräch kommen – začať rozhovor
+kurieren – liečiť
+lahm – ochrnutý, chromý, nevládny
+laufen – bežať, utekať  
+Ihm läuft die Nase – Tečie mu z nosa
+die Laune – nálada
+lauten – znieť 
+Wie lautet die Zahl? – Aké je to číslo?
+die Leber – pečeň 
+der Lkw, der Lastkraftwagen – nákladné auto
+der Magen – žalúdok
+das Medikament – liek
+die Nase – nos 
+das Ohr – ucho
+passieren – stať sa
+plötzlich – zrazu, náhle
+die Praxis – ordinácia 
+die Redensart – ustálené slovné spojenie
+die Röntgenaufnahme – röntgenové snímky
+der Rücken – chrbát
+ runterfallen – klesnúť, spadnúť z výšky
+die Säge – píla
+schniefen – pri prechladnutí dýchať hlučne cez nos, smrkať  
+der Schnupfen – nádcha 
+schrecklich – strašný, príšerný
+der Schutz – ochrana
+die Seele – duša
+singen – spievať
+der Splitter – úlomok, trieska
+die Sportmedizin – medicína pre športovcov
+die Sprechstunde – ordinačná hodina
+spritzen – dať injekciu, očkovať
+spüren – cítiť
+stolpern – potknúť sa
+streicheln – hladkať
+stürzen – spadnúť
+das Taschen – vreckovka
+tasten – ohmatávať, nahmatávať
+tragen Kleidung, Brille – nosiť šaty, okuliare 
+tränen – slziť
+triefen – slziť
+trotzdem – napriek tomu  
+untersuchen – vyšetriť, skúmať, kontrolovať
+zum Facharzt überweisen – poslať k odbornému lekárovi
+verkleben – zalepiť
+wehtun – bolieť
+das Werkstück – obrobok, obrábaný predmet
+wieso – ako to
+das Wunder – zázrak
+Kein Wunder! – Žiaden zázrak!
+das Zentrum – centrum
+ziemlich – dosť, veľmi, značne 
