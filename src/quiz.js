@@ -66,6 +66,7 @@ function loadNextWord() {
             currentWord = slovakWords.pop();
             correctAnswer = wordPairs[currentWord];
             document.getElementById('question-label').textContent = `Translate '${currentWord}' to German:`;
+            document.getElementById('question-label').textContent = `ä ü ö ß`;
         } else {
             endQuiz();
         }
