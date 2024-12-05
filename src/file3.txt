@@ -1,72 +1,62 @@
-angenehm – príjemný
-der Baum – strom
-Compaqnie – spoločnosť
-danach – za tým, potom
-einfach – jednoduchý
-eintragen – zapísať
-die Erstinformation – prvotná informácia
-evaluieren – hodnotiť
-die Evaluierung – hodnotenie
-freundlich – priateľský
-zu fünft – po päť
-der Gedanke – myšlienka
-der Gedankenbaum – Mind-Map
-genau – presne
-der Inhalt – obsah
-inkompetent – nekompetentný
-kompetent – kompetentný
-kompliziert – komplikovaný
-die Länge – dĺžka
-langweilig – nudný
-das Lehrwerk – učebnica
-leicht – ľahký
-lustig – veselý
-die Meinung – mienka, názor podľa mňa
-die Methode – metóda
-der Nachbar – sused
-die Nachbarin – susedka
-der Nachmittag – popoludnie
-nötig – nutný
-die Organisation – organizácia
-perfekt – perfektný
-der Plan – plán
-planen – plánovať
-die Planung – plánovanie
-planvoll – premyslený, podľa plánu
-die Präsentation – prezentácia
-das Prozent – percento
-pünktlich – presný na čas
-der Referent – referent
-das Regal – polička
-die Regel – pravidlo
-die Runde – kolo
-schade – škoda
-das Schild – značka, tabuľka
-der Schreibblock – poznámkový blok
-seltsam – čudný, podivný
-sensationell – senzačný
-suchen – hľadať
-der Teil – časť, diel
-unfreundlich – nemilý, nevľúdny
-ungenau – nepresný, neprecízny
-unhöflich – nezdvorilý
-unklar – nejasný
-unkorrekt – neférový
-unmodern – nemoderný
-unpraktisch – nepraktický
-unpünktlich – nepresný
-die Veranstaltung – podujatie, akcia
-das Verbot – zákaz
-voll – plný
-vorher – predtým
-die Vorinformation – vstupná informácia
-die Vorlesung – prednáška
-vorn – vpredu
-der Vorschlag – návrh
-der Vortrag – prednáška
-Ist das wahr? – Je to pravda?
-ziemlich – dosť, značne
-zu voll – príliš plný
-zu groß – príliš veľký
-zustimmen – súhlasiť
-zwischen – medzi
+der Appetit – chuť 
+aufhören mit etwas – prestať s niečím
+der Auftrag – objednávka
+das Auge – oko
+der Bauch – brucho
+das Befinden – zdravotný stav
+das Bein – noha
+gut, besser, am besten – dobrý, lepší, najlepší
+die Beschwerden – ťažkosti
+das Bett – posteľ
+die Bettruhe – pokoj na lôžku
+brechen – zlomiť
+deshalb – preto
+einhalten – dodržať
+den Termin einhalten – dodržať termín
+die Empfehlung – odporúčanie
+die Erkältung – prechladnutie
+erzählen – rozprávať (súvislý príbeh)
+essen – jesť
+das Fahrrad – bicykel
+Was fehlt dir? – Čo ti je? 
+das Fieber – horúčka
+der Fuß – chodidlo
+gestern – včera
+gesund – zdravý
+gleich, sofort – ihneď
+der Hals – krk, hrdlo
+die Hand – ruka
+hohes Fieber – vysoká horúčka  
+der Honig – med
+der Husten – kašeľ
+der Kopf – hlava
+das Krankenhaus – nemocnica
+die Krankheit – choroba
+krankschreiben – vypísať niekoho
+Was ist los? – Čo sa deje?
+Was ist mit dir los? – Čo je s tebou?
+mehrere – viacerí
+messen – merať
+die Mitteilung – oznámenie, správa
+müde sein – byť unavený
+nehmen – vziať
+nichts – nič
+ein paar – niekoľko
+der Ratschlag – rada
+die rechte Hand – pravá ruka
+der Rücksitz – zadné sedadlo v aute
+die Ruhe – pokoj
+schlafen – spať
+Mir ist schlecht. – Je mi zle.
+der Schmerz – bolesť
+das Schreiben – list, písanie
+der Tee – čaj
+die Temperatur – teplota
+Mir ist übel. – Je mi zle.
+der Unfall – nehoda
+verbinden – zaviazať
+die Verletzung – poranenie
+vereinbaren – dohodnúť
+verletzen –  poraniť
+verordnen – naordinovať, predpísať
+verschreiben – predpísať (liek)
